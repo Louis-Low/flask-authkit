@@ -1,0 +1,3 @@
+{% extends "base.html" %}
+{% block title %}Home · Flask AuthKit{% endblock %}
+{% block content %}<section class="hero"><p class="eyebrow">Flask AuthKit</p><h1>Authentication you can understand and reuse.</h1><p class="lede">A focused starter kit for secure Flask accounts, sessions, validation, and protected pages.</p><div class="actions"><a class="button" href="{{ url_for('auth.register') }}">Create an account</a><a class="button secondary" href="{{ url_for('auth.login') }}">Sign in</a></div></section>{% endblock %}
