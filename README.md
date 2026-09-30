@@ -16,8 +16,8 @@ Flask AuthKit is a reusable, production-oriented authentication foundation for F
 ## Quick start
 
 ```bash
-git clone https://github.com/prajapatiHardik2008/Flask-LogIn-Page.git
-cd Flask-LogIn-Page
+git clone https://github.com/Louis-Low/flask-authkit.git
+cd flask-authkit
 python -m venv .venv
 pip install -r requirements.txt
 cp .env.example .env
